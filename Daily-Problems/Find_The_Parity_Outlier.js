@@ -8,7 +8,7 @@
 // [160, 3, 1719, 19, 11, 13, -21]
 // Should return: 160
 
-//solution// 
+// Solution // 
 
 function findOutlier(integers){
  // create two arrys of odd and even integers.
