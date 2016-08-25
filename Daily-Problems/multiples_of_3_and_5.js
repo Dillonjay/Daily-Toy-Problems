@@ -12,7 +12,7 @@
 function solution(number){
   const ar = [];
   for(let i = 0; i < number; i ++){
-  (i % 5 === 0 || i % 3 === 0) ? ar.push(i) : null;
+  	(i % 5 === 0 || i % 3 === 0) ? ar.push(i) : null;
   }
    return ar.reduce((a,b) => a + b, 0)
 }
