@@ -7,6 +7,8 @@
 
 //If the length of the input string is 0, return value must be 0.
 
+// Solution //
+
 longestPalindrome=function(s){
   var palindromes = [];
   
