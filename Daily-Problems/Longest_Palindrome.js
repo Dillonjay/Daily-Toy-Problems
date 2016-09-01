@@ -15,7 +15,7 @@ longestPalindrome=function(s){
   for (var i=0; i<s.length; i++) {
     for (var j=1; j<s.length+1; j++) {
       var sub = s.slice(i,j);
-      //check if substring is a plindrome
+      //check if substring is a palindrome
       if (sub === sub.split('').reverse().join('')) {
         palindromes.push(sub);
       }
