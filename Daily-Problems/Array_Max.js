@@ -8,5 +8,5 @@
 
 function max (numbers) {
  	// Reduce the array of numbers returning the greater of the two each iteration.
-	return numbers.reduce((a,b) => a < b ? b : a)w
+	return numbers.reduce((a,b) => a < b ? b : a)
 };
