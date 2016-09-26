@@ -23,4 +23,10 @@ function flatten (arrays) {
     	// Return the array after each iteration.
     	return a;
   	},[])
-}
+};
+
+// Solution for an array that only contains arrays one level deep //
+function flattenOneLevel(array) {
+    return array.reduce((a,b) =>  a.concat(b),[])
+};
+
